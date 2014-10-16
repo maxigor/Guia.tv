@@ -1,19 +1,60 @@
-@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather+Sans:800);
+
 body {
-   background-color: #5dace9;
+   background-color: #67c2d4;
+   color: #F7EBD5;
 }
 h1, h2, h3 {
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
 }
 .banner {
-    background-color: #0074cd;
+    background-color: #67c2d4;
     color: #FFF;
     height: 100px;
 }
-.banner h1 {
-    font-size: 50px;
+.content h1 {
+    font-size: 120px;
     line-height: 50px;
+    color: #F7EBD5;
+    text-align: center;
+    margin-top: 208px;
 }
+
+.content p {
+   font-size: 30px;
+   text-align: center;
+   margin-top: 63px;
+   color: #553445;
+}
+
+.content p:hover {
+		color: #e75854;
+}
+
+.content .ls {
+		width: 670px;
+		margin: 0 auto;
+		height: 235px;
+}
+
+.content .ls button {
+		height: 93px;
+		-webkit-transition: opacity 0.1s 0.5s;
+		transition: opacity 0.1s 0.5s;
+		position: relative;
+		padding: 0 1em;
+		border: none;
+		background-color: #fef0e3;
+		color: #e75854;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+		line-height: 80px;
+		overflow: hidden;
+		width: 224px;
+}
+
+
 .main-frame {
     background-color: #FFF;
     padding: 10px;
@@ -23,6 +64,7 @@ h1, h2, h3 {
     border-radius: 5px;
     margin-top: -30px;
 }
+
 .search-box {
     line-height: 50px;
     background-color: #333;
@@ -33,6 +75,7 @@ h1, h2, h3 {
     -khtml-border-radius: 5px;
     border-radius: 5px;
 }
+
 .search-box label {
     font-weight: bold;
     margin-left: 10px;
